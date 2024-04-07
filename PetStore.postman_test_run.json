@@ -1,22 +1,22 @@
 {
-	"id": "1585713a-e663-40d2-bde4-10167c6d9b28",
+	"id": "a52b4b90-6cfd-482b-98ce-f973a5f632c3",
 	"name": "PetStore",
-	"timestamp": "2024-04-05T04:53:41.485Z",
+	"timestamp": "2024-04-07T13:11:41.861Z",
 	"collection_id": "8220988-9a5976f4-d3aa-437e-9bc5-bce8f43b609c",
 	"folder_id": 0,
 	"environment_id": "8220988-c8f2165d-5fa2-4365-94ba-c20d79f8105f",
-	"totalPass": 57,
+	"totalPass": 61,
 	"delay": 0,
 	"persist": true,
 	"status": "finished",
-	"startedAt": "2024-04-05T04:53:33.597Z",
+	"startedAt": "2024-04-07T13:11:32.876Z",
 	"totalFail": 0,
 	"results": [
 		{
 			"id": "b512b78b-a05c-479a-8f3f-fe919d4c684e",
 			"name": "AddPet",
 			"url": "https://petstore.swagger.io/v2/pet",
-			"time": 722,
+			"time": 957,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -56,7 +56,7 @@
 				}
 			},
 			"times": [
-				722
+				957
 			],
 			"allTests": [
 				{
@@ -73,7 +73,7 @@
 			"id": "8dd43ce9-8eab-40ce-985e-8d069aa936f8",
 			"name": "AddPet-nullData",
 			"url": "https://petstore.swagger.io/v2/pet",
-			"time": 233,
+			"time": 232,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -108,7 +108,7 @@
 				}
 			},
 			"times": [
-				233
+				232
 			],
 			"allTests": [
 				{
@@ -124,7 +124,7 @@
 			"id": "114e4766-5fab-4d10-b53a-e489c68efc16",
 			"name": "AddPet-500err-InvaId",
 			"url": "https://petstore.swagger.io/v2/pet",
-			"time": 232,
+			"time": 243,
 			"responseCode": {
 				"code": 500,
 				"name": "Server Error"
@@ -144,7 +144,7 @@
 				}
 			},
 			"times": [
-				232
+				243
 			],
 			"allTests": [
 				{
@@ -157,7 +157,7 @@
 			"id": "8a77cfe4-ca49-49f1-ad1c-5c90ec5ace79",
 			"name": "AddPet-400errBadReq",
 			"url": "https://petstore.swagger.io/v2/pet",
-			"time": 245,
+			"time": 229,
 			"responseCode": {
 				"code": 400,
 				"name": "Bad Request"
@@ -182,7 +182,7 @@
 				}
 			},
 			"times": [
-				245
+				229
 			],
 			"allTests": [
 				{
@@ -195,8 +195,8 @@
 		{
 			"id": "1e172337-3e77-455f-be96-1b6fa082c3ec",
 			"name": "uploadFile",
-			"url": "https://petstore.swagger.io/v2/pet/70362/uploadImage",
-			"time": 238,
+			"url": "https://petstore.swagger.io/v2/pet/29350/uploadImage",
+			"time": 229,
 			"responseCode": {
 				"code": 500,
 				"name": "Internal Server Error"
@@ -211,7 +211,7 @@
 				}
 			},
 			"times": [
-				238
+				229
 			],
 			"allTests": [
 				{
@@ -222,8 +222,8 @@
 		{
 			"id": "8a4a42d2-301d-48f8-8a32-39b0ba2fb250",
 			"name": "uploadFile-noMetaandFile",
-			"url": "https://petstore.swagger.io/v2/pet/70362/uploadImage",
-			"time": 234,
+			"url": "https://petstore.swagger.io/v2/pet/29350/uploadImage",
+			"time": 236,
 			"responseCode": {
 				"code": 415,
 				"name": "Unsupported Media Type"
@@ -243,7 +243,7 @@
 				}
 			},
 			"times": [
-				234
+				236
 			],
 			"allTests": [
 				{
@@ -255,8 +255,8 @@
 		{
 			"id": "3026a51b-7c04-4469-81d5-d28f378e36e2",
 			"name": "uploadFile-noFile",
-			"url": "https://petstore.swagger.io/v2/pet/70362/uploadImage",
-			"time": 240,
+			"url": "https://petstore.swagger.io/v2/pet/29350/uploadImage",
+			"time": 229,
 			"responseCode": {
 				"code": 500,
 				"name": "Internal Server Error"
@@ -276,7 +276,7 @@
 				}
 			},
 			"times": [
-				240
+				229
 			],
 			"allTests": [
 				{
@@ -288,8 +288,8 @@
 		{
 			"id": "85a8f72a-bfa1-4f5d-ae0e-494b652c1776",
 			"name": "uploadFile-noMetaData",
-			"url": "https://petstore.swagger.io/v2/pet/70362/uploadImage",
-			"time": 233,
+			"url": "https://petstore.swagger.io/v2/pet/29350/uploadImage",
+			"time": 247,
 			"responseCode": {
 				"code": 415,
 				"name": "Unsupported Media Type"
@@ -309,7 +309,7 @@
 				}
 			},
 			"times": [
-				233
+				247
 			],
 			"allTests": [
 				{
@@ -321,8 +321,8 @@
 		{
 			"id": "89038c7f-9ae4-420c-8ce9-1b905482ee00",
 			"name": "PetById",
-			"url": "https://petstore.swagger.io/v2/pet/70362",
-			"time": 237,
+			"url": "https://petstore.swagger.io/v2/pet/29350",
+			"time": 233,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -352,7 +352,7 @@
 				}
 			},
 			"times": [
-				237
+				233
 			],
 			"allTests": [
 				{
@@ -367,7 +367,7 @@
 			"id": "07f24434-9054-4e89-bb9b-f25ad34c0456",
 			"name": "PetNotFound",
 			"url": "https://petstore.swagger.io/v2/pet/-2",
-			"time": 237,
+			"time": 235,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -392,7 +392,7 @@
 				}
 			},
 			"times": [
-				237
+				235
 			],
 			"allTests": [
 				{
@@ -406,7 +406,7 @@
 			"id": "c15e44a0-5ac1-4ef1-a08b-0a9911a41608",
 			"name": "PetByStatus-pending",
 			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=pending",
-			"time": 238,
+			"time": 230,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -431,7 +431,7 @@
 				}
 			},
 			"times": [
-				238
+				230
 			],
 			"allTests": [
 				{
@@ -445,7 +445,7 @@
 			"id": "a762cb66-392d-402f-be4f-b308fa4f0074",
 			"name": "PetByStatus-available",
 			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
-			"time": 482,
+			"time": 458,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -470,7 +470,7 @@
 				}
 			},
 			"times": [
-				482
+				458
 			],
 			"allTests": [
 				{
@@ -484,7 +484,7 @@
 			"id": "a2a6a4b6-d119-478a-88ef-f331f31c25a0",
 			"name": "PetByStatus-sold",
 			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=sold",
-			"time": 242,
+			"time": 229,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -509,7 +509,7 @@
 				}
 			},
 			"times": [
-				242
+				229
 			],
 			"allTests": [
 				{
@@ -522,8 +522,8 @@
 		{
 			"id": "8f17e277-74ac-4e0b-9121-df3f2a5efc58",
 			"name": "updatePet",
-			"url": "https://petstore.swagger.io/v2/pet/70362",
-			"time": 235,
+			"url": "https://petstore.swagger.io/v2/pet/29350",
+			"time": 228,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -543,7 +543,7 @@
 				}
 			},
 			"times": [
-				235
+				228
 			],
 			"allTests": [
 				{
@@ -553,10 +553,55 @@
 			]
 		},
 		{
+			"id": "cfba2d66-ae8a-44e1-a2a1-ebff6b96491a",
+			"name": "PetById-UpdatedName&Status",
+			"url": "https://petstore.swagger.io/v2/pet/29350",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2s": true,
+				"Response status code is 200": true,
+				"Response is a valid JSON object": true,
+				"Response has the updated name and status": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2s": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a valid JSON object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has the updated name and status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Response time is less than 2s": true,
+					"Response status code is 200": true,
+					"Response is a valid JSON object": true,
+					"Response has the updated name and status": true
+				}
+			]
+		},
+		{
 			"id": "463a6687-0e68-46ae-ad8c-fb269ada8335",
 			"name": "updatePet-reqBody",
 			"url": "https://petstore.swagger.io/v2/pet",
-			"time": 232,
+			"time": 230,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -576,7 +621,7 @@
 				}
 			},
 			"times": [
-				232
+				230
 			],
 			"allTests": [
 				{
@@ -589,7 +634,7 @@
 			"id": "667e1c5f-2787-4413-ac18-778560482baf",
 			"name": "updatePet-invalidStatus",
 			"url": "https://petstore.swagger.io/v2/pet/2",
-			"time": 251,
+			"time": 228,
 			"responseCode": {
 				"code": 405,
 				"name": "Method Not Allowed"
@@ -609,7 +654,7 @@
 				}
 			},
 			"times": [
-				251
+				228
 			],
 			"allTests": [
 				{
@@ -622,7 +667,7 @@
 			"id": "3e035556-a870-4366-bc6e-dd7fd332e104",
 			"name": "updatePet-invalidName",
 			"url": "https://petstore.swagger.io/v2/pet/2",
-			"time": 238,
+			"time": 228,
 			"responseCode": {
 				"code": 405,
 				"name": "Method Not Allowed"
@@ -642,7 +687,7 @@
 				}
 			},
 			"times": [
-				238
+				228
 			],
 			"allTests": [
 				{
@@ -655,7 +700,7 @@
 			"id": "a902fd94-5f6e-4f2e-ac4e-07a57ce00a40",
 			"name": "updatePet-invalidId",
 			"url": "https://petstore.swagger.io/v2/pet/$%",
-			"time": 235,
+			"time": 228,
 			"responseCode": {
 				"code": 400,
 				"name": "Bad Request"
@@ -675,7 +720,7 @@
 				}
 			},
 			"times": [
-				235
+				228
 			],
 			"allTests": [
 				{
@@ -687,8 +732,8 @@
 		{
 			"id": "87d13164-5981-45fe-920e-e98eb1ef50f0",
 			"name": "deletePet",
-			"url": "https://petstore.swagger.io/v2/pet/70362",
-			"time": 233,
+			"url": "https://petstore.swagger.io/v2/pet/29350",
+			"time": 229,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -708,7 +753,7 @@
 				}
 			},
 			"times": [
-				233
+				229
 			],
 			"allTests": [
 				{
@@ -720,8 +765,8 @@
 		{
 			"id": "f3968587-170f-4385-a85d-b4e4c7e82dcb",
 			"name": "deletePet-notFound",
-			"url": "https://petstore.swagger.io/v2/pet/70362",
-			"time": 233,
+			"url": "https://petstore.swagger.io/v2/pet/29350",
+			"time": 229,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -751,7 +796,7 @@
 				}
 			},
 			"times": [
-				233
+				229
 			],
 			"allTests": [
 				{
@@ -766,7 +811,7 @@
 			"id": "581be951-110f-4c19-9dc7-4767171c78bc",
 			"name": "deletePet-invalidId",
 			"url": "https://petstore.swagger.io/v2/pet/%",
-			"time": 232,
+			"time": 231,
 			"responseCode": {
 				"code": 400,
 				"name": "Bad Request"
@@ -786,7 +831,7 @@
 				}
 			},
 			"times": [
-				232
+				231
 			],
 			"allTests": [
 				{
@@ -797,7 +842,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 5702,
+	"totalTime": 6046,
 	"collection": {
 		"requests": [
 			{
@@ -855,6 +900,10 @@
 			{
 				"id": "8f17e277-74ac-4e0b-9121-df3f2a5efc58",
 				"method": "POST"
+			},
+			{
+				"id": "cfba2d66-ae8a-44e1-a2a1-ebff6b96491a",
+				"method": "GET"
 			},
 			{
 				"id": "463a6687-0e68-46ae-ad8c-fb269ada8335",
